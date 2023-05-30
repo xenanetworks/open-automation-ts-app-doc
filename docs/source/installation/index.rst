@@ -6,4 +6,4 @@ Installation Guide
 
     system
     node
-    docker
+    steps

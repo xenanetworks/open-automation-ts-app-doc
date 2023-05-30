@@ -1,16 +1,13 @@
-Docker Installation
+Installation Steps
 ===================
 
-Installation Steps
---------------------
-
 1. Unzip 
-^^^^^^^^^
+--------------------
 
 Unzip the archive to a directory of your choice.
 
 2. Launch Installation Script
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 ``cd`` into the newly extracted folder and launch the installation script.
 
@@ -21,7 +18,7 @@ Unzip the archive to a directory of your choice.
 
 
 3. Set Installation Path
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: shell
     
@@ -30,7 +27,7 @@ Unzip the archive to a directory of your choice.
 Press :kbd:`ENTER` to use the default path and continue.
 
 4. Select Mode of Node
-^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Select the mode of the XOA Node to install.
 
@@ -49,7 +46,7 @@ Select Mode ``1`` and :kbd:`ENTER` to continue.
     Read more about the modes of XOA nodes in :doc:`node`
 
 5. Host name
-^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: shell
     
@@ -58,7 +55,7 @@ Select Mode ``1`` and :kbd:`ENTER` to continue.
 Type ``localhost`` or ``0.0.0.0``, and and :kbd:`ENTER` to continue.
 
 6. Database User
-^^^^^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: shell
     
@@ -68,7 +65,7 @@ Type database username of your choice, e.g. ``xoa``, and and :kbd:`ENTER` to con
 
 
 7. Database Password
-^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: shell
 
@@ -78,7 +75,7 @@ Type database password if you want to use your own password, else the generated 
 
 
 8. Database Name
-^^^^^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: shell
     
@@ -87,7 +84,7 @@ Type database password if you want to use your own password, else the generated 
 Type database name of your choice, and :kbd:`ENTER` to continue.
 
 9. Start Docker
-^^^^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: shell
     
@@ -96,7 +93,7 @@ Type database name of your choice, and :kbd:`ENTER` to continue.
 
 
 10. Access
-^^^^^^^^^^^^^^^^
+------------------------------
 
 Open a web browser and go to ``https://localhost`` to start using XOA Test Suites Application. You will see the login page below.
 
@@ -104,6 +101,6 @@ Open a web browser and go to ``https://localhost`` to start using XOA Test Suite
 
     You can also use another computer to access ``https://<host_ip_address>``.
 
-.. figure:: ../_static/login.png
+.. figure:: ../_static/installation/login.png
     :width: 100%
     :alt: Login Page

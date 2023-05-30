@@ -16,7 +16,7 @@ A ``Fleet`` is the management domain of a XOA Worker that manages a group of Xen
 * Fleets are designed to be run in a local network with low-latency links between the Worker and Xena testers.
 * Large testbed, such as inter-network, may require multiple Fleets to cover Xena testers at different remote locations (available in a future release).
 
-.. figure:: ../_static/2544/cluster_fleet.png
+.. figure:: ../_static/installation/cluster_fleet.png
     :width: 100%
     :alt: XOA Cluster and Fleet
 
