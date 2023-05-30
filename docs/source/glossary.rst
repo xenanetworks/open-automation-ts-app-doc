@@ -34,10 +34,10 @@ Glossary of Terms
         Device Under Test
 
     RFC 2544
-        Benchmarking Methodology for Network Interconnect Devices
+        Benchmarking Methodology for Network Interconnect Devices (:rfc:`2544`)
 
     RFC 1242
-        Benchmarking Terminology for Network Interconnection Devices
+        Benchmarking Terminology for Network Interconnection Devices (:rfc:`1242`)
 
     Iteration
         A test iteration (or simply iteration) denotes the part of the test configuration that is associated with a single test-type and a single packet size. This concept is used for the purpose of progress reporting. A test configuration that specifies the use of e.g. 5 packet sizes and has enabled 3 of the possible 4 test-types will thus consist of 5*3 = 15 iterations.
