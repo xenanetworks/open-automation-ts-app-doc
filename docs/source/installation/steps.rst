@@ -9,7 +9,7 @@ Unzip the archive to a directory of your choice.
 2. Launch Installation Script
 ------------------------------
 
-``cd`` into the newly extracted folder and launch the installation script.
+:command:`cd` into the newly extracted folder and launch the installation script.
 
 .. code-block:: shell
 
