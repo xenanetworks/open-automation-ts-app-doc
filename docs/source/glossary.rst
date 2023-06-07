@@ -85,3 +85,9 @@ Glossary of Terms
 
     XOA Node - Duo
         ``Duo`` nodes are XOA Nodes configured into Duo mode, which provides functionalities of a Manager and a Worker.
+
+    TPLD
+        Test payload takes up 20 bytes and is used for various purposes, such as latency measurements, loss and misordering monitoring, payload integrity, etc.
+
+    TID
+        TPLD identifier
