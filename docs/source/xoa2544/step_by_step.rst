@@ -1,10 +1,6 @@
 📝 Step-By-Step Guide
 ============================
 
-.. image:: ../_static/xoa2544/step_by_step/header.png
-    :width: 100%
-
-
 Add Tester
 --------------
 
