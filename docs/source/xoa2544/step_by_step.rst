@@ -1,4 +1,4 @@
-📝 Step-By-Step Guide
+Step-By-Step Guide
 ============================
 
 Add Tester

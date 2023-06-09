@@ -1,4 +1,4 @@
-📄 Reference Manual
+Reference Manual
 =========================
 
 .. toctree::
