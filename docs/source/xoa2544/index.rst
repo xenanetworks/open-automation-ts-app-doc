@@ -7,3 +7,4 @@ XOA2544
     general
     step_by_step
     reference/index
+    restapi/index
