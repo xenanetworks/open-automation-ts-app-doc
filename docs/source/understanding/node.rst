@@ -3,10 +3,11 @@ Cluster, Fleet, Node
 
 XOA Cluster
 ------------
-A ``Cluster`` is a group of cooperative nodes that form a XOA deployment. A Cluster consists of at least one XOA Node.
+A ``Cluster`` is a collaborative set of nodes that establish a XOA deployment, with a minimum of one XOA Node included.
 
-* It is highly recommended to set up only one XOA Cluster for an organization because of the centralized persistent data storage. 
-* Clusters are designed to adapt to inter-network communication between Workers and the Manager.
+* For centralized persistent data storage reasons, it's strongly advised to maintain just one XOA Cluster per organization.
+* These clusters are designed to facilitate communication between Workers and the Manager across networks.
+
 
 XOA Fleet
 ------------

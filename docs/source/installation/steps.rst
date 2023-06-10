@@ -43,7 +43,7 @@ Select Mode ``1`` and :kbd:`ENTER` to continue.
 
 .. seealso::
 
-    Read more about the modes of XOA nodes in :doc:`node`
+    Read more about the modes of XOA nodes in :doc:`../understanding/node`
 
 5. Host name
 ------------------------------

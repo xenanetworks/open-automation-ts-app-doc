@@ -5,5 +5,4 @@ Installation Guide
     :maxdepth: 2
 
     system
-    node
     steps

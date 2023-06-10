@@ -1,37 +1,40 @@
 ==============================================================
-Xena OpenAutomation Test Methodology Application User Document
+Xena OpenAutomation Test Suite Application User Manual
 ==============================================================
 
-User Manual for Xena OpenAutomation Test Methodology Application. Xena OpenAutomation is an open framework including all Xena's test suites for test specialists to perform benchmarking tests, service validation, and more.
+The Xena OpenAutomation Test Suite Application (:term:`XOA Application`) is a web-based automated test methodology suite designed to host Xena's test suites. This platform allows test specialists to carry out benchmarking tests, service validations, and more. XOA Application is set to replace Xena's Windows-based test suite applications including `Valkyrie2544 <https://xenanetworks.com/product/valkyrie2544/>`_, `Valkyrie2889 <https://xenanetworks.com/product/valkyrie2889/>`_, `Valkyrie3918 <https://xenanetworks.com/product/valkyrie3918/>`_, and `Valkyrie1564 <https://xenanetworks.com/product/valkyrie1564/>`_.
+
 
 Executive Briefing
 ==================
 
-Xena OpenAutomation (XOA) is an open framework for all Xena's automated test suites, which overlays various Xena hardware and virtual TGA, for test specialist to verify design, quality, performance, and more with ease of integration into a test automation framework.
+Leveraging the `XOA Python API <https://docs.xenanetworks.com/projects/xoa-python-api>`_, `XOA Core <https://docs.xenanetworks.com/projects/xoa-core>`_, `XOA Test Suite Plugins <https://github.com/xenanetworks/open-automation-test-suites>`_, and `XOA Converter <https://docs.xenanetworks.com/projects/xoa-config-converter>`_, the XOA Application encompasses all of Xena's automated test suites. These suites overlay a variety of Xena's hardware and virtual TGA, enabling testing specialists to verify design, quality, performance, and more with a simple integration into a test automation framework.
 
-We open-sources XOA's foundation, its Python APIs and test suites implementation to empower customers to tailor and automate their own tests and verify their devices/systems under test in a bespoke fashion.
+The XOA Application offers standardized testing methodologies for performance benchmarking, service validation, and conformance, while continuously integrating new testing methodologies. With on-premises deployment, the XOA Application ensures persistent data storage, thereby keeping all data within the boundaries of the organization's network.
 
-XOA provides standardized test methodologies for performance benchmarking, service validation, conformance, and is continuously adding new test methodologies.
-
-XOA offers persistent data storage and is deployed on-premises to keeping all data within the organization's network boundaries.
-
-This guide provides installation instructions and user guide to help get your XOA Cluster up and running as quickly as possible and walk you through how to use XOA is various ways.
-
+This guide offers installation instructions and a user manual to assist you in quickly setting up your XOA deployment. It also guides you through various ways to utilize the GUI application effectively.
 
 Available Test Suites
 =====================
 
-.. note::
+.. important::
 
     In version 1.0, only :term:`XOA2544` is available.
 
     :term:`XOA2889`, :term:`XOA3918`, and :term:`XOA1564` will be available in future releases.
 
 
+Table of Content
+=====================
+
 .. toctree::
     :maxdepth: 2
 
     installation/index
+    understanding/index
     xoa2544/index
+    xoa2889/index
+    xoa3918/index
+    xoa1564/index
     glossary
 
