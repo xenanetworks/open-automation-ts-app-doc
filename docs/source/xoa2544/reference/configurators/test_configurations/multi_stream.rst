@@ -33,8 +33,9 @@ Configuration Parameters
 The actual configuration parameters is described below.
 
 .. list-table:: Multi-stream configuration parameter description
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation

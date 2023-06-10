@@ -12,8 +12,9 @@ Common
 This section contains a number of options that can help identify the test context.
 
 .. list-table:: Common Section
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation
@@ -38,9 +39,10 @@ Report Filename
 This section contains options that affect the way report filename is generated.
 
 .. list-table:: Report Filename
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
-
+    :stub-columns: 1
+    
     *   - Parameter
         - Explanation
     *   - Report Filename Prefix
@@ -54,8 +56,9 @@ PDF Report
 This section contains options that affect the way PDF report is generated.
 
 .. list-table:: PDF Report
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation
@@ -82,8 +85,9 @@ CSV Report
 This section contains options that affect the way CSV report is generated.
 
 .. list-table:: CSV Report
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation
@@ -100,8 +104,9 @@ XML Report
 This section contains options that affect the way XML report is generated.
 
 .. list-table:: XML Report
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation

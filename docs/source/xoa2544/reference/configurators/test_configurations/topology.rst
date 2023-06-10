@@ -4,20 +4,50 @@ Topology
 Topology and Traffic Direction
 ------------------------------
 
-These properties define the topology and direction of the test traffic:
-
-* **Pairs**: Each slot is placed in either the East or the West block. Then the ports are paired together two and two. Traffic is only flowing between paired slots. The Direction option determines which ports will be transmitting.
-
-* **Blocks**: Each slot is placed in either the East or the West block. Every port in the transmitting block sends traffic to every port in the other block. The Direction option determines if only one block or both will be transmitting.
-
-* **Mesh**: All slots send traffic to all other slots. The Direction option is ignored as Mesh traffic is always bidirectional.
-
-
 .. figure:: ../../../../_static/xoa2544/reference/configurators/tc_topology_topology_traffic.png
     :width: 100%
     :alt: XOA 2544 Test Configuration Topology and Traffic Direction
 
     XOA 2544 Test Configuration Topology and Traffic Direction
+
+.. figure:: ../../../../_static/xoa2544/reference/configurators/topologies.png
+    :width: 50%
+    :alt: Pairs, Blocks, Mesh Topologies
+
+    Pairs, Blocks, Mesh Topologies
+
+These properties define the topology and direction of the test traffic:
+
+.. list-table:: Topology
+    :widths: 15 85
+    :stub-columns: 1
+
+    *   - Pairs
+        - Each slot is placed in either the East or the West block. Then the ports are paired together two and two. Traffic is only flowing between paired slots. The Direction option determines which ports will be transmitting.
+    *   - Blocks
+        - Each slot is placed in either the East or the West block. Every port in the transmitting block sends traffic to every port in the other block. The Direction option determines if only one block or both will be transmitting.
+    *   - Mesh
+        - All slots send traffic to all other slots. The Direction option is ignored as Mesh traffic is always bidirectional.
+
+
+.. list-table:: Traffic Direction
+    :widths: 15 85
+    :stub-columns: 1
+
+    *   - East->West
+        - Marks a unidirectional traffic pattern. Ports in the EAST group will transmit data. Only ports in the WEST group will receive data.
+    *   - West->East
+        - Marks a unidirectional traffic pattern. Only ports in the WEST group will transmit data. Only ports in the EAST group will receive data.
+    *   - Bidirectional
+        - The traffic flows both ways. Each port will both transmit and receive data.
+
+
+
+
+
+
+
+
 
 Slot Configuration
 -------------------
@@ -71,8 +101,9 @@ Slot Pair Address Table
     XOA 2544 Test Configuration Slot Pair Address Table 
 
 .. list-table:: Slot Pair Address
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation
@@ -101,8 +132,9 @@ Loop Slot Address Table
 
 
 .. list-table:: Loop Slot Address
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Parameter
         - Explanation

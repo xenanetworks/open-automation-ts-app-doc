@@ -4,22 +4,44 @@ Frame Size
 Frame Sizes
 ------------------------------
 
-This section allow you to specify the frame sizes to be used by the various tests. The available frame size options are divided into two groups, the **Fixed Sizes Per Iteration** and the **Varying Sizes Per Iteration**.
-
-As the name indicates the Fixed Sizes Per Iteration group uses a single frame size per iteration. It is possible to specify multiple frame sizes which will cause the test to be repeated for each frame size.
-
-The Varying Sizes Per Iteration group will use many frame sizes for each iteration. This is controlled by the hardware.
-
-.. note::
-    
-    When calculating bit rates, the average frame size will be used.
-
-
 .. figure:: ../../../../_static/xoa2544/reference/configurators/tc_frame_sizes_1.png
     :width: 100%
     :alt: XOA 2544 Test Configuration Frame Sizes
 
     XOA 2544 Test Configuration Frame Sizes
+
+This section allow you to specify the frame sizes to be used by the various tests. The available frame size options are divided into two groups, the :guilabel:`Fixed Sizes Per Iteration` and the :guilabel:`Varying Sizes Per Iteration`.
+
+As the name indicates the :guilabel:`Fixed Sizes Per Iteration` group uses a single frame size per iteration. It is possible to specify multiple frame sizes which will cause the test to be repeated for each frame size.
+
+.. list-table:: Fixed Frame Sizes
+    :widths: 15 85
+    :stub-columns: 1
+
+    *   - IETF Default
+        - The default setting is to use the IEEE standard frame sizes : 64, 128, 256, 512, 1024, 1280 and 1518 bytes. 
+    *   - Custom Sizes
+        - Let you specify a comma-separated list of values.  This is e.g. useful if you only want to test using one or two packet sizes
+    *   - Range
+        - Let you specify a range of packet sizes and the steps.
+
+
+The :guilabel:`Varying Sizes Per Iteration` group will use many frame sizes for each iteration. This is controlled by the hardware.
+
+.. list-table:: Varying Frame Sizes
+    :widths: 15 85
+    :stub-columns: 1
+
+    *   - Incrementing
+        - Let you specify a ``Min`` and a ``Max`` size. The size of each frame: ``Min, Min+1, Min+2,..., Max``.
+    *   - Butterfly
+        - Let you specify a ``Min`` and a ``Max`` size. The size of each frame: ``Min, Max, Min+1, Max-1, Min+2, Max-2, …``.
+    *   - Random
+        - Let you specify a ``Min`` and a ``Max`` size. The size of each frame will vary between ``Min`` and ``Max`` randomly.
+
+.. note::
+    
+    When calculating bit rates, the average frame size will be used.
 
 
 Frame Test Payload

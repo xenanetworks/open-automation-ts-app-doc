@@ -24,8 +24,9 @@ Throughput Test Properties
     XOA 2544 Test Configuration Test Case Configuration - Throughput Test Properties
 
 .. list-table:: Throughput Test Properties
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Property
         - Explanation
@@ -68,8 +69,9 @@ Latency & Jitter Test Properties
     XOA 2544 Test Configuration Test Case Configuration - Latency & Jitter Test Properties
 
 .. list-table:: Latency and Jitter Test Properties
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Property
         - Explanation
@@ -95,8 +97,9 @@ Frame Loss Rate Test Properties
     XOA 2544 Test Configuration Test Case Configuration - Frame Loss Test Properties
 
 .. list-table:: Frame Loss Test Properties
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Property
         - Explanation
@@ -131,8 +134,9 @@ Back-to-Back Test Properties
     XOA 2544 Test Configuration est Case Configuration - Back-to-Back Test Properties
 
 .. list-table:: Back-to-Back Test Properties
-    :widths: auto
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Start Rate
         - The starting rate in percent of the port rate used by the rate sweep.

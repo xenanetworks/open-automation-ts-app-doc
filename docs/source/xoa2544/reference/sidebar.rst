@@ -14,8 +14,9 @@ The navigation sidebar can be collapsed and expanded on all pages, providing qui
 
 
 .. list-table:: Navigation Sidebar
-    :widths: 30 70
+    :widths: 15 85
     :header-rows: 1
+    :stub-columns: 1
 
     *   - Item
         - Explanation
