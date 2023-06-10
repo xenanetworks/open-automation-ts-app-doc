@@ -56,9 +56,9 @@ Port Scheduling
 
 If enabled the :guilabel:`Speed Reduction Sweep` property will assign a small speed reduction value to each port on a test module, so that each port on the module will get a different value. This property is available for Blocks and Mesh topologies.
 
-If the :guilabel:`Use Port Sync. Start` option is checked the :guilabel:`Start` button will activate a synchronized port start mechanism for the ports – if the chassis firmware version supports this feature.
+If the :guilabel:`Use Port Sync. Start` option is checked the :guilabel:`Start` button will activate a synchronized port start mechanism for the ports - if the chassis firmware version supports this feature.
 
-The :guilabel:`Port Stagger Steps` property delays start of traffic generation on one port relative to pressing Start button. The delay is programmed in steps of 64 microseconds. The Port Stagger function will work between ports on test modules installed in the same chassis. First port will not be delayed. Second port will be delayed with the Port Stagger Steps. Third port will be delayed with the Port Stagger Steps * 2. Fourth port will be delayed with the Port Stagger Steps * 3 etc. Maximum Port Stagger Steps value for a port is 31250. Therefore the programmed Port Stagger Steps must not exceed 31250/(number of ports). 
+The :guilabel:`Port Stagger Steps` property delays start of traffic generation on one port relative to pressing Start button. The delay is programmed in steps of 64 microseconds. The Port Stagger function will work between ports on test modules installed in the same chassis. First port will not be delayed. Second port will be delayed with the ``Port Stagger Steps``. Third port will be delayed with the ``Port Stagger Steps x 2``. Fourth port will be delayed with the ``Port Stagger Steps x 3``, etc. Maximum Port Stagger Steps value for a port is 31250. Therefore the programmed ``Port Stagger Steps`` must not exceed ``31250/(number of ports)``. 
 
 .. note::
     
@@ -76,9 +76,9 @@ MAC Learning Options
 
     XOA 2544 Test Configuration Test Execution Control - MAC Learning
 
-The :guilabel:`MAC Learning Mode` property can be used to instruct the testers to emit initial MAC learning packets in order for any network switches to learn the MAC addresses of the ports and avoid excessive flooding of packets. You can specify if you want MAC learning to be performed either at the start of every trial (the default), once when the test starts or not at all. You can also specify how many time each learning packet will be repeated every time with the :guilabel:`Learning Frame Count` option.
+The :guilabel:`MAC Learning Mode` property can be used to instruct the testers to emit initial MAC learning packets in order for any network switches to learn the MAC addresses of the ports and avoid excessive flooding of packets. You can specify if you want MAC learning to be performed either at the start of every iteration (the default), once when the test starts or not at all. You can also specify how many time each learning packet will be repeated every time with the :guilabel:`Learning Frame Count` option.
 
-If the :guilabel:`Toggle Sync State` property is checked the sync state for all selected ports will be toggled off and on at the start of each test trial. This may ensure that the DUTs MAC-tables are cleared at the start of each test. The :guilabel:`Sync Off Duration` is the number of seconds to keep the port sync state off.
+If the :guilabel:`Toggle Sync State` property is checked the sync state for all selected ports will be toggled off and on at the start of each test trial. This may ensure that the DUT's MAC tables are cleared at the start of each test. The :guilabel:`Sync Off Duration` is the number of seconds to keep the port sync state off.
 
 L2/L3 Learning Options
 -----------------------
@@ -106,7 +106,7 @@ Flow-Based Learning
 
 This section contains a few properties that are mainly useful when working with flow-based switches.
 
-The :guilabel:`Use Flow-Based Learning Preamble` property will make the XOA2544 emit a brief traffic preamble before starting the actual test. This can be used to ensure that the flow-based switch has learned all necessary addresses. The :guilabel:`Learning Frame Count` controls how many frames are sent in the preamble. The :guilabel:`Delay After Preamble` determines the size of the period between the preamble and the start of the actual test traffic.
+Some DUT`s have learning curve for new flows to eliminate the initial latency spikes. The :guilabel:`Use Flow-Based Learning Preamble` property will make the XOA2544 emit a brief traffic preamble before starting the actual test. This can be used to ensure that the flow-based switch has learned all necessary addresses. The :guilabel:`Learning Frame Count` controls how many frames are sent in the preamble. The :guilabel:`Delay After Preamble` determines the size of the period between the preamble and the start of the actual test traffic.
 
 Reset and Error Handling
 ------------------------

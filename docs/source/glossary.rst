@@ -91,3 +91,9 @@ Glossary of Terms
 
     TID
         TPLD identifier
+    
+    XOA Application
+        Xena OpenAutomation Test Suite Application
+    
+    PRBS
+        Pseudo Random Bit Sequence
