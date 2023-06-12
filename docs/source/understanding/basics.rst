@@ -44,14 +44,14 @@ Thanks to the separation between test configurations and test resources, it's ef
     Concurrent Test Executions
 
 
-Separation Between Results and Reporting
+Separation Between Data and Formatting
 -----------------------------------------
 
 .. figure:: ../_static/understanding/report_config_test_data.png
     :width: 40%
-    :alt: Separation Between Results and Reporting
+    :alt: Separation Between Data and Formatting
 
-    Separation Between Results and Reporting
+    Separation Between Data and Formatting
 
 Just as the XOA Application distinguishes between test configurations and test resources, it also separates test data from report configuration formats. Every time a test is conducted, the application stores the resultant data in a database that is part of the XOA Manager node. If you want to download a test report, you need to select the desired report configuration. This separation not only facilitates the creation of reports in various formats from the same test results, but it also makes it possible to share the test data with others.
 
