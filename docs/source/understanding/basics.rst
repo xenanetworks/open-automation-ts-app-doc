@@ -1,5 +1,5 @@
-Differences
-===========
+Basic Use Flows
+=====================================
 
 If you're familiar with Xena's Windows-based test suite applications `Valkyrie2544 <https://xenanetworks.com/product/valkyrie2544/>`_, `Valkyrie2889 <https://xenanetworks.com/product/valkyrie2889/>`_, `Valkyrie3918 <https://xenanetworks.com/product/valkyrie3918/>`_, and `Valkyrie1564 <https://xenanetworks.com/product/valkyrie1564/>`_, you'll find it easy to navigate the XOA Application. Many of the configuration parameters, naming conventions, and principles are similar.
 
