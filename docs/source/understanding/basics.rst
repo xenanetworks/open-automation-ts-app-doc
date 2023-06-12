@@ -15,7 +15,7 @@ From Test Configuration to Test Report
 
     From Test Configuration to Test Report
 
-A basic workflow, starting from creating a test configuration to downloading a test report, is illustrated in :numref:`basic-flow`. To carry out a test, it's necessary to link a test configuration with the test resources. The test data, produced during the test execution and paired with a report configuration, will yield a test report.
+A basic use flow, starting from creating a test configuration to downloading a test report, is illustrated in :numref:`basic-flow`. To carry out a test, it's necessary to link a test configuration with the test resources. The test data, produced during the test execution and paired with a report configuration, will yield a test report.
 
 
 Separation Between Logical and Physical
