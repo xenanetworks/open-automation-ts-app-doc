@@ -1,4 +1,4 @@
-Understanding XOA Application
+Understanding XOA Web App
 =============================
 
 .. toctree::

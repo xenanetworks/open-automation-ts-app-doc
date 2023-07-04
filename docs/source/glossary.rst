@@ -19,25 +19,19 @@ Glossary of Terms
         Xena OpenAutomation
 
     XOA2544
-        Xena OpenAutomation RFC 2544 Test Methodology Application
+        Xena OpenAutomation RFC 2544 Test Methodology
 
     XOA2889
-        Xena OpenAutomation RFC 2889 Test Methodology Application
+        Xena OpenAutomation RFC 2889 Test Methodology
 
     XOA3918
-        Xena OpenAutomation RFC 3918 Test Methodology Application
+        Xena OpenAutomation RFC 3918 Test Methodology
 
     XOA1564
-        Xena OpenAutomation ITU-T Y.2561 Test Methodology Application
+        Xena OpenAutomation ITU-T Y.2561 Test Methodology
 
     DUT
         Device Under Test
-
-    RFC 2544
-        Benchmarking Methodology for Network Interconnect Devices (:rfc:`2544`)
-
-    RFC 1242
-        Benchmarking Terminology for Network Interconnection Devices (:rfc:`1242`)
 
     Iteration
         A test iteration (or simply iteration) denotes the part of the test configuration that is associated with a single test-type and a single packet size. This concept is used for the purpose of progress reporting. A test configuration that specifies the use of e.g. 5 packet sizes and has enabled 3 of the possible 4 test-types will thus consist of 5*3 = 15 iterations.
@@ -92,8 +86,8 @@ Glossary of Terms
     TID
         TPLD identifier
     
-    XOA Application
-        Xena OpenAutomation Test Suite Application
+    XOA Web App
+        Xena OpenAutomation Web Application
     
     PRBS
         Pseudo Random Bit Sequence
