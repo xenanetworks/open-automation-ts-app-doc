@@ -43,13 +43,13 @@ def get_short_version(rel_path):
 
 # -- Project information -----------------------------------------------------
 
-project = u'Xena OpenAutomation Test Suite Application User Documentation'
+project = u'Xena OpenAutomation Web Application User Documentation'
 copyright = u'2023, Xena Networks'
 author = u'Xena Networks'
-title = u'Xena OpenAutomation Test Suite Application User Documentation'
+title = u'Xena OpenAutomation Web Application User Documentation'
 
 # The full version, including alpha/beta/rc tags.
-release = "1.0.0"
+release = "1.0.1"
 
 # The short X.Y version.
 version = "1.0"

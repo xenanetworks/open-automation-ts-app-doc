@@ -7,7 +7,7 @@ Test Case Configuration
 
     XOA 2544 Test Configuration Test Case Configuration
 
-This subpanel defines which RFC 2544 tests would want to perform and also allow you to configure how you want them executed.
+This subpanel defines which :rfc:`2544` tests would want to perform and also allow you to configure how you want them executed.
 
 To inspect and optionally change the test properties for each test, select the test in the list view. The test properties will now be shown in the panel to the right.
 

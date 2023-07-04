@@ -3,7 +3,7 @@ Installation Steps
 
 .. important::
     
-    As a prerequisite, docker must be installed before installing the XOA Application. You can either install `Docker Desktop <https://docs.docker.com/desktop/>`_ or `Docker Engine <https://docs.docker.com/engine/install/>`_ depending on the OS of your system. 
+    As a prerequisite, docker must be installed before installing the XOA Web App. You can either install `Docker Desktop <https://docs.docker.com/desktop/>`_ or `Docker Engine <https://docs.docker.com/engine/install/>`_ depending on the OS of your system. 
 
 1. Unzip 
 --------------------

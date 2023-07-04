@@ -1,9 +1,9 @@
 Basic Use Flows
 =====================================
 
-If you're familiar with Xena's Windows-based test suite applications `Valkyrie2544 <https://xenanetworks.com/product/valkyrie2544/>`_, `Valkyrie2889 <https://xenanetworks.com/product/valkyrie2889/>`_, `Valkyrie3918 <https://xenanetworks.com/product/valkyrie3918/>`_, and `Valkyrie1564 <https://xenanetworks.com/product/valkyrie1564/>`_, you'll find it easy to navigate the XOA Application. Many of the configuration parameters, naming conventions, and principles are similar.
+If you're familiar with Xena's test suite desktop applications for Windows `Valkyrie2544 <https://xenanetworks.com/product/valkyrie2544/>`_, `Valkyrie2889 <https://xenanetworks.com/product/valkyrie2889/>`_, `Valkyrie3918 <https://xenanetworks.com/product/valkyrie3918/>`_, and `Valkyrie1564 <https://xenanetworks.com/product/valkyrie1564/>`_, you'll find it easy to navigate the XOA Web App. Many of the configuration parameters, naming conventions, and principles are similar.
 
-However, it's important to note that XOA Application, as a framework that accommodates various test suites, brings several innovative features to the table. These differences from the traditional Windows-based test suite applications are detailed in the following section.
+However, it's important to note that XOA Web App, as a framework that accommodates various test suites, brings several innovative features to the table. These differences from Xena's test suite desktop applications for Windows are detailed in the following section.
 
 From Test Configuration to Test Report
 ---------------------------------------
@@ -27,9 +27,9 @@ Separation Between Logical and Physical
 
     Separation Between Test Configuration and Test Resources
 
-In the test suite applications that run on Windows, the test configurations are integrated with the physical test resources and the setup of the testbed. If you decide to share these configurations that align with your test environment with others, there might be issues. The person receiving these configurations may have a different testbed setup, for instance, a different chassis IP. Consequently, without altering the json data of the file, they would be unable to open your test configuration. This frequent need for alterations can often cause misconfigurations and complicate the sharing of test configurations.
+In the test suite desktop applications for Windows, the test configurations are integrated with the physical test resources and the setup of the testbed. If you decide to share these configurations that align with your test environment with others, there might be issues. The person receiving these configurations may have a different testbed setup, for instance, a different chassis IP. Consequently, without altering the json data of the file, they would be unable to open your test configuration. This frequent need for alterations can often cause misconfigurations and complicate the sharing of test configurations.
 
-Within the XOA Application, test configurations are separated from physical test resources. When formulating a test configuration, you produce slots within the topology that serve as placeholders for physical test ports. All parameters within the test configuration are fully autonomous from the physical ports. When the time comes to perform a test, you select a test configuration and link it to the physical test ports to initiate a test execution. This separation between logical and physical configurations provides the flexibility for others to conveniently utilize your test configuration in their respective test environments.
+Within the XOA Web App, test configurations are separated from physical test resources. When formulating a test configuration, you produce slots within the topology that serve as placeholders for physical test ports. All parameters within the test configuration are fully autonomous from the physical ports. When the time comes to perform a test, you select a test configuration and link it to the physical test ports to initiate a test execution. This separation between logical and physical configurations provides the flexibility for others to conveniently utilize your test configuration in their respective test environments.
 
 
 Concurrent Test Executions
@@ -53,7 +53,7 @@ Separation Between Data and Formatting
 
     Separation Between Data and Formatting
 
-Just as the XOA Application distinguishes between test configurations and test resources, it also separates test data from report configuration formats. Every time a test is conducted, the application stores the resultant data in a database that is part of the XOA Manager node. If you want to download a test report, you need to select the desired report configuration. This separation not only facilitates the creation of reports in various formats from the same test results, but it also makes it possible to share the test data with others.
+Just as the XOA Web App distinguishes between test configurations and test resources, it also separates test data from report configuration formats. Every time a test is conducted, the application stores the resultant data in a database that is part of the XOA Manager node. If you want to download a test report, you need to select the desired report configuration. This separation not only facilitates the creation of reports in various formats from the same test results, but it also makes it possible to share the test data with others.
 
 
 Locked and Draft Test Configurations
