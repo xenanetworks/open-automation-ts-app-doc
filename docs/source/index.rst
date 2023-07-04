@@ -8,7 +8,7 @@ The Xena OpenAutomation Web Application (:term:`XOA Web App`) is a web-based aut
 Executive Briefing
 ==================
 
-Leveraging the `XOA Python API <https://docs.xenanetworks.com/projects/xoa-python-api>`_, `XOA Core <https://docs.xenanetworks.com/projects/xoa-core>`_, `XOA Test Suite Plugins <https://github.com/xenanetworks/open-automation-test-suites>`_, and `XOA Converter <https://docs.xenanetworks.com/projects/xoa-config-converter>`_, the XOA Web App encompasses all of Xena's automated test suites. These suites overlay a variety of Xena's hardware and virtual TGA, enabling testing specialists to verify design, quality, performance, and more with a simple integration into a test automation framework.
+Leveraging the `XOA Python API <https://docs.xenanetworks.com/projects/xoa-python-api>`_, `XOA Core <https://docs.xenanetworks.com/projects/xoa-core>`_, `XOA Test Suite Plugins <https://github.com/xenanetworks/open-automation-test-suites>`_, and `XOA Converter <https://docs.xenanetworks.com/projects/xoa-config-converter>`_, the XOA Web App encompasses all of Xena's automated test suites. These suites overlay a variety of Xena's hardware and virtual TGA, enabling testing specialists to verify design, quality, performance, and more with a simple integration into a test automation framework by REST APIs.
 
 The XOA Web App offers standardized testing methodologies for performance benchmarking, service validation, and conformance, while continuously integrating new testing methodologies. With on-premises deployment, the XOA Web App ensures persistent data storage, thereby keeping all data within the boundaries of the organization's network.
 
